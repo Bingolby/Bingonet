@@ -5,7 +5,7 @@
 #include "bingonet/bingo_network.h"
 
 
-
+#include "bingonet/layers/bingo_conv_layer.h"
 #include "bingonet/layers/bingo_fc_layer.h"
 
 #include "bingonet/activations/bingo_activation_function.h"

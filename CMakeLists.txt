@@ -92,7 +92,7 @@ SET(EXTRA_C_FLAGS_DEBUG " -g3 ")
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR} )
 LINK_LIBRARIES(${REQUIRED_LIBRARIES} )
 
-SET( Bingonet_hrds bingonet/activations/bingo_activation_function.h  bingonet/layers/bingo_fc_layer.h  bingonet/layers/bingo_layer.h  bingonet/lossfunctions/bingo_loss_function.h  bingonet/optimizers/bingo_optimizer.h  bingonet/util/bingo_product.h  bingonet/util/bingo_util.h  bingonet/config.h  bingonet/layers/bingo_input_layer.h bingonet/layers/bingo_layers.h  bingonet/bingo_network.h  bingonet/bingonet.h  bingonet/util/bingo_weight_init.h)
+SET( Bingonet_hrds bingonet/activations/bingo_activation_function.h  bingonet/layers/bingo_fc_layer.h  bingonet/layers/bingo_conv_layer.h  bingonet/layers/bingo_layer.h  bingonet/lossfunctions/bingo_loss_function.h  bingonet/optimizers/bingo_optimizer.h  bingonet/util/bingo_product.h  bingonet/util/bingo_util.h  bingonet/config.h  bingonet/layers/bingo_input_layer.h bingonet/layers/bingo_layers.h  bingonet/bingo_network.h  bingonet/bingonet.h  bingonet/util/bingo_weight_init.h)
 
 
 SET(Bingonet_test_headers test/test_bingo_fc_layer.h test/test_bingo_network.h test/picotest/picotest.h)

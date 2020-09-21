@@ -23,4 +23,12 @@ TEST(bingo_input_layer, init)
     //serialization_test(l1, l2);
 }
 
+TEST(bingo_conv_layer, init)
+{
+    bingo_conv_layer<tan_h> l(100,100,3,100,100);
+    l.init_weight();
+
+    //serialization_test(l1, l2);
+}
+
 }

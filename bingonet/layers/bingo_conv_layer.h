@@ -1,7 +1,5 @@
 //edited by bingo
 
-//edited by bingo
-
 
 #pragma once
 #include "bingonet/layers/bingo_layer.h"

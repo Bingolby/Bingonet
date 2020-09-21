@@ -31,6 +31,9 @@ namespace bingonet{
 
 		bingo_layer_base(const bingo_layer_base&) = default;
 
+		vec_t& weight() { return W_; }
+		vec_t& bias() { return b_; }
+
 		virtual ~bingo_layer_base() = default;
 
 		virtual std::string layer_type() const = 0;
