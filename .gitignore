@@ -1,3 +1,10 @@
+#cmake files
+*.cmake
+Bingonet_test
+CMakeCache.txt
+CMakeFiles/*
+Makefile
+
 # Prerequisites
 *.d
 
