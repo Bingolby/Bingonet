@@ -1,4 +1,4 @@
 # Bingonet
-cmake -DUSE_TBB=ON -DBUILD_TESTS=ON .
+cmake -DBUILD_TESTS=ON .
 
 make
